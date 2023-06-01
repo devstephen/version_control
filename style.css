@@ -34,3 +34,36 @@ header nav a:hover {
   border-radius: 5px;
   transition: all 0.8s;
 }
+
+main {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  margin: 90px auto;
+  word-wrap: nowrap;
+  font-size: 45px;
+}
+
+.btns {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btns button {
+  margin: 20px;
+  border: none;
+  padding: 10px;
+  background: whitesmoke;
+  font-weight: 600;
+  color: black;
+  font-size: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  /* width: 100%; */
+  /* word-wrap: nowrap; */
+}
